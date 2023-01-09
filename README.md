@@ -49,10 +49,10 @@ The steps to set up and send emails are as follows:
 
 #### Configure & run the code
 
-1. Install the dependencies listed in the `requirements.txt` file.
+1. Install the dependencies listed in the `email/requirements.txt` file.
 2. In the `email/` folder, create a file called `connection.txt`. Paste the connection string from Step 2 above into the file.
-3. Update the `sender_address` variable in `scratch/scratch.py`:
+3. Update the `sender_address` variable in `email/send-email.py`:
     - Go to the Email Communication Services Domain resource created in Step 3 above. You may edit and retrieve the 'MailFrom' value from here.
     - Update the `sender_address` variable with the 'MailFrom' value.
-4. Update the `recipient_address` variable in `scratch/scratch.py` with your desired recipient email address.
-5. Run the sample code.
+4. Update the `recipient_address` variable in `email/send-email.py` with your desired recipient email address.
+5. Run the code in `email/send-email.py`.
