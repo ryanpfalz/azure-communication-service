@@ -1,0 +1,1 @@
+endpoint=https://demoazcommservice.communication.azure.com/;accesskey=easSxuejOzki3CbNsO3+UvYHiOrf4MRg6OrE6xUEdta4YdJ9sVQV77hyqELQ1xGsRsAznMLfWFFNvmEOhnPF7A==
